@@ -177,8 +177,11 @@ footer {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 739px) {
-    .gallery {
-        flex-direction: column;
+@media screen and (max-width: 735px) {
+    nav ul {
+        display: none;
+    }
+    .iconify {
+        display: block;
     }
 }
